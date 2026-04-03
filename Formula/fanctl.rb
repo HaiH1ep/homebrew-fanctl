@@ -4,7 +4,7 @@ class Fanctl < Formula
   version "0.1.0"
   url "https://github.com/haihiepnguyen/fanctl/releases/download/v#{version}/fanctl-v#{version}-arm64-macos.tar.gz"
   # Replace with actual sha256 after first release:
-  sha256 "REPLACE_WITH_ACTUAL_SHA256"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
