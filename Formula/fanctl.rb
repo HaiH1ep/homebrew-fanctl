@@ -1,10 +1,9 @@
 class Fanctl < Formula
   desc "Command-line tool for controlling Apple Silicon Mac fan speeds"
-  homepage "https://github.com/haihiepnguyen/fanctl"
+  homepage "https://github.com/HaiH1ep/fanctl"
   version "0.2.0"
-  url "https://github.com/haihiepnguyen/fanctl/releases/download/v#{version}/fanctl-v#{version}-arm64-macos.tar.gz"
-  # Replace with actual sha256 after first release:
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://github.com/HaiH1ep/fanctl/releases/download/v#{version}/fanctl-v#{version}-arm64-macos.tar.gz"
+  sha256 "395a65d834e0236bb0fc504a3cdd1835da1e2f7947bd58537a843bb787364cfb"
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
